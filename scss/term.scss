@@ -1,0 +1,30 @@
+@import "globals";
+@import "variables";
+
+
+
+h1.term::after,
+.cetegory,
+.instance {
+	color: $dark;
+}
+
+h1.term::after {
+	content: " —";
+}
+
+.categories :not(:last-child)::after {
+	content: ","
+}
+
+.category {
+	font-size: .9rem;
+}
+
+.definition {
+	padding: 1.5rem 0 1.5rem 0;
+}
+
+.instance {
+	font-style: italic;
+}
