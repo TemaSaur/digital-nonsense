@@ -1,6 +1,6 @@
 const $_GET = location.search.substr(1).split("&").reduce((o,i)=>(u=decodeURIComponent,[k,v]=i.split("="),o[u(k)]=v&&u(v),o),{});
 const term = $_GET.term
-console.log(term)
+document.title = term + " - Digital nonsense";
 const data = []
 
 const termName = document.querySelector(".term")
