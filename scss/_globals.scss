@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Roboto+Mono:wght@300&family=Rubik:wght@500&display=swap');
+
+
+@import "variables";
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	line-height: 1.37;
+	background: $bg;
+	color: $black;
+}
