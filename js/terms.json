@@ -6,15 +6,15 @@
 		"instance": "I am planning to create a new P2P program to facilate the quick transfer of files from one user to another"
 	},
 	{
-		"name": "ruber ducking",
-		"categories": ["method", "analogy"],
-		"definition": "the act of explaining a problem to a listener, and by explaining the problem organizing your thoughts so that you derive to the solution yourself. This website facilitates single person pairing by providing you with a person to use as a rubber duck. No actual ducks were harmed in this process\nThe name is a reference to a story in the book The Pragmatic Programmer in which a programmer would carry around a rubber duck and debug their code by forcing themselves to explain it, line-by-line, to the duck",
-		"instance": "Sorry for all the noise tonight, I was just rubber ducking my code."
-	},
-	{
 		"name": "regex",
 		"categories": ["term", "contractionrube"],
 		"definition": "regular expressions, the patterns used to match character combinations in strings. It's a sequence of characters that define a search pattern. Usually such patterns are used by string-searching algorithms for \"find\" or \"find and replace\" operations on strings, or for input validation",
 		"instance": ""
+	},
+	{
+		"name": "ruber ducking",
+		"categories": ["method", "analogy"],
+		"definition": "the act of explaining a problem to a listener, and by explaining the problem organizing your thoughts so that you derive to the solution yourself. This website facilitates single person pairing by providing you with a person to use as a rubber duck. No actual ducks were harmed in this process\nThe name is a reference to a story in the book The Pragmatic Programmer in which a programmer would carry around a rubber duck and debug their code by forcing themselves to explain it, line-by-line, to the duck",
+		"instance": "Sorry for all the noise tonight, I was just rubber ducking my code."
 	}
 ]
