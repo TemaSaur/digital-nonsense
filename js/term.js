@@ -49,6 +49,3 @@ getJSON("/js/terms.json").then(() => {
 	termObject = bisect(data, term)
 	addItem(termObject)
 })
-// console.log(data)
-// const termObject = bisect(data, term)
-// addItem(termObject)
