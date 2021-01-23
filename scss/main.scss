@@ -31,10 +31,15 @@ header {
 		font-size: 1.2rem;
 	}
 }
+@media (max-width: 700px) {
+	nav {
+		display: none !important;
+	}
+}
 
 main {
-	margin-top: 50px;
-	padding: 40px;
+	margin: 50px 0;
+	padding: 30px;
 
 	border-radius: 5px;
 	box-shadow: 3px 5px 10px #00000018;
