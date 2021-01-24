@@ -21,13 +21,30 @@ h1.term::after {
 
 .definition {
 	padding: 1.5rem 0 0;
-}
-
-.definition p:not(:nth-child(1)) {
-	padding: .75rem 0 0;
-}
+	p:not(:nth-child(1)) {
+		padding: .75rem 0 0;
+	}
+} 
 
 .instance {
 	margin-top: 1.5rem;
 	font-style: italic;
+}
+
+.picture {
+	margin-top: 1rem;
+	img {
+		max-width: 80vw;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.vid {
+	margin-top: 1rem;
+	iframe {
+		max-width: 80vw;
+		display: block;
+		margin: 0 auto;
+	}	
 }

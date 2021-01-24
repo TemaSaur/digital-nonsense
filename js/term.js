@@ -7,6 +7,8 @@ const termName = document.querySelector(".term")
 const categories = document.querySelector(".categories")
 const definition = document.querySelector(".definition")
 const instance = document.querySelector(".instance")
+const picture = document.querySelector(".picture")
+const vid = document.querySelector(".vid")
 
 
 async function getJSON(path) {
@@ -44,7 +46,17 @@ function addItem(obj) {
 	if (obj.instance)
 		instance.innerHTML = obj.instance
 	else
-		instance.style.display = "none";
+		instance.style.display = "none"
+
+	if (obj.picture)
+		picture.innerHTML = `<img src="/img/${term}.${obj.picture}">`
+	else
+		picture.style.display = "none"
+	
+	if (obj.vid)
+		vid.innerHTML = `<iframe width="560" height="315" src="${obj.vid}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+	else
+		vid.style.display = "none"
 }
 
 
