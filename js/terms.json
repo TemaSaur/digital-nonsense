@@ -5,14 +5,14 @@
 		"definition": "peer-to-peer, is a distributed application architecture that partitions tasks or workloads between peers. Peers are equally privileged, equipotent participants in the application. They are said to form a peer-to-peer network of nodes",
 		"instance": "I am planning to create a new P2P program to facilate the quick transfer of files from one user to another",
 		"picture": "png",
-		"vid": "https://www.youtube.com/embed/s-Fs_Ucy_EU"
+		"vid": "s-Fs_Ucy_EU"
 	},
 	{
 		"name": "regex",
 		"categories": ["term", "contraction"],
 		"definition": "regular expressions, the patterns used to match character combinations in strings. It's a sequence of characters that define a search pattern. Usually such patterns are used by string-searching algorithms for \"find\" or \"find and replace\" operations on strings, or for input validation",
 		"instance": "",
-		"vid": "https://www.youtube.com/embed/sXQxhojSdZM"
+		"vid": "sXQxhojSdZM"
 	},
 	{
 		"name": "ruber ducking",

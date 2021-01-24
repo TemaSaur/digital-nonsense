@@ -54,7 +54,7 @@ function addItem(obj) {
 		picture.style.display = "none"
 	
 	if (obj.vid)
-		vid.innerHTML = `<iframe width="560" height="315" src="${obj.vid}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+		vid.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${obj.vid}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 	else
 		vid.style.display = "none"
 }
