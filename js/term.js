@@ -39,9 +39,12 @@ function addItem(obj) {
 		categories.innerHTML += `<span class="category">${obj.categories[i]}</span>`
 	}
 	const string = obj.definition.split("\n")
-	console.log(string)
-	definition.innerHTML = string.join("</p><p class=\"definition\">")
-	instance.innerHTML = obj.instance
+	definition.innerHTML =
+	definition.innerHTML = "<p>" + string.join("</p><p>") + "</p>"
+	if (obj.instance)
+		instance.innerHTML = obj.instance
+	else
+		instance.style.display = "none";
 }
 
 

@@ -2,8 +2,6 @@
 @import "variables";
 
 
-
-h1.term::after,
 .cetegory,
 .instance {
 	color: $dark;
@@ -22,9 +20,14 @@ h1.term::after {
 }
 
 .definition {
-	padding: 1.5rem 0 1.5rem 0;
+	padding: 1.5rem 0 0;
+}
+
+.definition p:not(:nth-child(1)) {
+	padding: .75rem 0 0;
 }
 
 .instance {
+	margin-top: 1.5rem;
 	font-style: italic;
 }
