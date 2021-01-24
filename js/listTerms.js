@@ -1,7 +1,10 @@
 const parent = document.querySelector(".term-cards")
 
 function addItem(obj) {
-	let html = `<div class="term-card"><a href="term.html?term=${obj.name}"><h3>${obj.name}</h3></a></div>`
+	let html = `<div class="term-card"><a href="term.html?term=${obj.name}"><h3>${obj.name}</h3></a><div class="categories flex-align-center flex-gap">`
+	for (let i = 0; i < obj.categories.length; ++i)
+		html += `<span class="category">${obj.categories[i]}</span>`;
+	html += "</div></div>"
 	parent.innerHTML += html;
 }
 

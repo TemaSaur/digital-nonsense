@@ -45,15 +45,15 @@ a {
 	}
 }
 
-.flex {
-	display: flex;
-}
 .flex-align-center {
+	display: flex;
 	align-items: center;
 }
 .flex-gap {
+	display: flex;
 	gap: 10px;
 }
 .flex-column {
+	display: flex;
 	flex-direction: column;
 }

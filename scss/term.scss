@@ -11,14 +11,6 @@ h1.term::after {
 	content: " —";
 }
 
-.categories :not(:last-child)::after {
-	content: ","
-}
-
-.category {
-	font-size: .9rem;
-}
-
 .definition {
 	padding: 1.5rem 0 0;
 	p:not(:nth-child(1)) {

@@ -48,4 +48,27 @@ main {
 
 .term-card {
 	font-size: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	box-shadow: 0 5px 2px -2px #00000010;
+
+	a {
+		padding-top: 1em;
+		display: block;
+		width: 100%;
+	}
+
+	.categories {
+		position: relative;
+		top: -.25em;
+	}
+}
+
+.categories :not(:last-child)::after {
+	content: ","
+}
+
+.category {
+	font-size: .9rem;
 }
