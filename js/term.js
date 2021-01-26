@@ -47,6 +47,8 @@ function bisect(array, x) {
 		else
 			hi = mid
 	}
+	while (array[lo].name != x & lo <= array.length)
+		++lo
 	return array[lo];
 }
 
