@@ -36,18 +36,20 @@ function bisect(array, x) {
 	// from the python bisect library
 	// may have some problems
 
-	let lo = 0, 
+	let lo = 0,
 	    hi = array.length,
-	    mid;
+		mid;
 	
+	x = x.toLowerCase()
+
 	while (lo < hi) {
 		mid = Math.floor((lo + hi) / 2)
-		if (array[mid].name < x)
+		if (array[mid].name.toLowerCase() < x)
 			lo = mid + 1
 		else
 			hi = mid
 	}
-	while (array[lo].name != x & lo <= array.length)
+	while (array[lo].name.toLowerCase() != x & lo <= array.length)
 		++lo
 	return array[lo];
 }
