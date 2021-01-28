@@ -47,6 +47,7 @@ main {
 }
 
 .term-card {
+	overflow: hidden;
 	font-size: 1.2rem;
 	display: flex;
 	justify-content: space-between;
@@ -60,6 +61,8 @@ main {
 	}
 
 	.categories {
+		word-wrap: break-word;
+		max-width: 30vw;
 		position: relative;
 		top: -.25em;
 	}
@@ -71,4 +74,13 @@ main {
 
 .category {
 	font-size: .9rem;
+}
+
+@media screen and (max-width: 600px) {
+	.categories :not(:first-child) {
+		display: none;
+	}
+	.category::after {
+		content: "" !important;
+	}
 }

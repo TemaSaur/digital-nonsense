@@ -1,4 +1,18 @@
 [
+
+	{
+		"name": "DevOps",
+		"categories": ["job", "practice", "blending"],
+		"definition": "Development + Operations, a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality",
+		"instance": "I think our team needs a good DevOps guy",
+		"vid": "_Gpe1Zn-1fE"
+	},
+	{
+		"name": "docs",
+		"categories": ["contraction"],
+		"definition": "documentation, your second bible, it is written by the developers of a technology to explain the operators, constants, functions, all the parameters etc.\nMost of programming languages, libraries and frameworks have some kind of documentation and a lot of the times it is really helpful to go and read it for better understanding of your own code",
+		"instance": "— I don't get it, this function just doesn't work<br>—maybe try reading the docs?"
+	},
 	{
 		"name": "P2P",
 		"categories": ["term", "contraction"],
@@ -15,9 +29,22 @@
 		"vid": "sXQxhojSdZM"
 	},
 	{
+		"name": "repo",
+		"categories": ["contraction"],
+		"definition": "software repository, a storage location for all the code of a single project. A lot of the times the term `repo` is assosiated with <i>Git</i> and <i>GitHub</i>. That is because Git is the main tool used to control the versions of the chosen repository",
+		"instance": "I'm starting a new project, created a repo, wrote the Hello world, it's going great!"
+	},
+	{
 		"name": "rubber ducking",
 		"categories": ["method", "analogy"],
 		"definition": "the act of explaining a problem to a listener, and by explaining the problem organizing your thoughts so that you derive to the solution yourself. This website facilitates single person pairing by providing you with a person to use as a rubber duck. No actual ducks were harmed in this process\nThe name is a reference to a story in the book The Pragmatic Programmer in which a programmer would carry around a rubber duck and debug their code by forcing themselves to explain it, line-by-line, to the duck",
 		"instance": "Sorry for all the noise tonight, I was just rubber ducking my code."
+	},
+	{
+		"name": "sync/async",
+		"categories": ["keyword", "syntax", "contraction"],
+		"definition": "synchronous/asynchronous respectively, two main ways to implement functions. You can consider synchronous functions as `normal` ones, the code runs line-by-line\nThe asynchronous functions run in parallel with other functions so different parts of code can execute at the same time. The problem is that sometimes it causes some unexpected behavior",
+		"instance": "Look, I wrote this async function to get data from the database",
+		"vid": "Kpn2ajSa92c"
 	}
 ]
