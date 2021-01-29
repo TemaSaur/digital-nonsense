@@ -40,3 +40,25 @@ h1.term::after {
 		margin: 0 auto;
 	}	
 }
+
+.reduce-cards {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px 50px;
+}
+
+.reduce {
+	background: #00000008;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.small {
+	font-size: 1.2em;
+}
+.big {
+	font-style: italic;
+}

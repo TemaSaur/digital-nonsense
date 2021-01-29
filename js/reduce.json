@@ -1,0 +1,16 @@
+[
+	["int", "integer"],
+	["str", "string"],
+	["bool", "boolean"],
+	["dict", "dictionary"],
+	["fun", "function"],
+	["var", "variable"],
+	["def", "define"],
+	["sys", "system"],
+	["btn", "button"],
+	["txt", "text"],
+	["src", "source"],
+	["docs", "documentation"],
+	["repo", "repository"],
+	["std", "standard"]
+]

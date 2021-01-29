@@ -3,7 +3,7 @@ const parent = document.querySelector(".term-cards")
 function addItem(obj) {
 	let html,
 	    term_ = obj.name.split(" ").join("+");
-	if (window.location.href.includes("127.0.0.1"))
+	if (islocal())
 		// if run locally, use the .html extension
 		html = `<div class="term-card">
 			<a href="term.html?term=${term_}">
