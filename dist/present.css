@@ -1,0 +1,28 @@
+html { scroll-behavior: smooth; }
+
+body { line-height: 1.44; }
+
+.next { height: 100vw; }
+
+.img-pres { display: block; margin: 0 auto; max-width: 80%; padding: 20px 0; }
+
+.slide { font-size: 1.2rem; }
+
+.slide h1 { padding: 50px 0 20px; }
+
+.space { height: 20vh; }
+
+.pres-list { padding: 20px 50px; }
+
+ul.pres-list { list-style: "-"; }
+
+.pres-list li { padding-left: 10px; padding-bottom: 5px; }
+
+h2.padding-down { padding-top: 10px; }
+
+.link-next { padding-top: 10px; font-size: 1.5rem; color: #7ECEFB; }
+
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.padding-left { padding-left: 27px; }
+/*# sourceMappingURL=present.css.map */
