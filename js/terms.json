@@ -1,5 +1,23 @@
 [
-
+	{
+		"name": "API",
+		"categories": ["term", "contraction"],
+		"definition": "Application Programming Interface, an interface that defines interactions between multiple software units. It manages the way an application gets data from an external database.",
+		"instance": "Here I use weather.com API to get information about temperature",
+		"vid": "s7wmiS2mSXY"
+	},
+	{
+		"name": "array",
+		"categories": ["term", "datatype"],
+		"definition": "list of data (of any type) structured in one big thing\nYou can think of it as a variable that stores other variables",
+		"instance": "That's a lot of numbers! How about we store them in an array?"
+	},
+	{
+		"name": "bisect",
+		"categories": ["algorithm"],
+		"definition": "Binary search, an algorithm that searches for an item in a sorted array\nThe algorithm: each step you cut the array in half until you find your element. If the element in the middle of array is greater than the one you're looking for, you cut out the top part and vice versa.\nThe time complexity of the algorithm is log(n), so it's a very efficient algorithm.",
+		"instance": "[for example, we want to find the number 62 in range 1 to 100. First you guess 50, then 75, 67, 58, 62]"
+	},
 	{
 		"name": "DevOps",
 		"categories": ["job", "practice", "blending"],
@@ -14,12 +32,62 @@
 		"instance": "— I don't get it, this function just doesn't work<br>—maybe try reading the docs?"
 	},
 	{
+		"name": "DOM",
+		"categories": ["tech", "contraction"],
+		"definition": "Document Object Model, a programming interface for HTML, XML and documents based on hierarchy of blocks (tags)"
+	},
+	{
+		"name": "ExpressJS",
+		"categories": ["tech", "affixation"],
+		"definition": "Express + JavaScript, a web application framework, that is used to manage the server-side code and serve pages for the app. It, of course, uses JavaScript as a programming language."
+	},
+	{
+		"name": "Git",
+		"categories": ["tech", "joke"],
+		"definition": "version control system used for tracking changes in files of one <a href=\"?term=repo\">repo</a> and working in large companies with codebases with thousands of lines of code\n[it of course can be used in smaller projects]\nMost importantly, it is the foundation of <a href=\"?term=Github\">Github</a>",
+		"instance": "With Git I can now work on projects with my friends at the same time",
+		"vid": "RGOj5yH7evk"
+	},
+	{
+		"name": "Github",
+		"categories": ["platform", "tech"],
+		"definition": "the main open-source platform built on top of <a href=\"?term=Git\">Git</a> version control software that host the repositories",
+		"instance": "Yea sure, I keep all my code on the <a href='https://github.com/'>Github</a>",
+		"vid": "RGOj5yH7evk"
+	},
+	{
+		"name": "js",
+		"categories": ["language", "contraction"],
+		"definition": "JavaScript, multi-paradigm (object- and event-oriented) programming language that is primarily used in the web development. Here it uses DOM (Document Object Model) to manage blocks, text at the web pages.\nIt is almost always compiled at the runtime. It's also weakly typed so the variables dinamically get their datatypes",
+		"instance": "The app uses js to fetch data from the weather <a href=\"?term=api\">API</a>",
+		"vid": "upDLs1sn7g4"
+	},
+	{
+		"name": "JSON (Jason)",
+		"categories": ["tech", "contraction"],
+		"definition": "JavaScript Object Notation, an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute-value pairs and array data types",
+		"instance": "The database is just one JSON file"
+	},
+	{
+		"name": "NodeJS",
+		"categories": ["tech", "contraction"],
+		"definition": "Node + JavaScript, an open-source, cross-platform runtime environment for js, that is used to run server-side scripts. The runtime is based of Chromium's V8 engine. JavaScript can normally only be executed through browser, but Node makes you lets you run it anywhere",
+		"instance": "I wrote another hello world with NodeJS today!",
+		"vid": "uVwtVBpw7RQ"
+	},
+	{
 		"name": "P2P",
 		"categories": ["term", "contraction"],
 		"definition": "peer-to-peer, is a distributed application architecture that partitions tasks or workloads between peers. Peers are equally privileged, equipotent participants in the application. They are said to form a peer-to-peer network of nodes",
 		"instance": "I am planning to create a new P2P program to facilate the quick transfer of files from one user to another",
 		"picture": "png",
 		"vid": "s-Fs_Ucy_EU"
+	},
+	{
+		"name": "ReactJS",
+		"categories": ["tech", "affixation"],
+		"definition": "React + JavaScript, a web library used to create the frontend of web applications. It, of course, uses JavaScript as a programming language and for more functinality - .jsx files\nIt has the version <i>React Native</i> that is used to create mobile apps",
+		"vid": "MRIMT0xPXFI"
 	},
 	{
 		"name": "regex",
@@ -31,7 +99,7 @@
 	{
 		"name": "repo",
 		"categories": ["contraction"],
-		"definition": "software repository, a storage location for all the code of a single project. A lot of the times the term `repo` is assosiated with <i>Git</i> and <i>GitHub</i>. That is because Git is the main tool used to control the versions of the chosen repository",
+		"definition": "software repository, a storage location for all the code of a single project. A lot of the times the term `repo` is assosiated with <a href=\"?term=Git\">Git</a> and <a href=\"?term=Github\">Github</a>. That is because <a href=\"?term=Git\">Git</a> is the main tool used to control the versions of the chosen repository",
 		"instance": "I'm starting a new project, created a repo, wrote the Hello world, it's going great!"
 	},
 	{

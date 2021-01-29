@@ -12,5 +12,8 @@
 	["src", "source"],
 	["docs", "documentation"],
 	["repo", "repository"],
-	["std", "standard"]
+	["std", "standard"],
+	["gamedev", "game developer"],
+	["webdev", "web development"],
+	["js", "JavaScript"]
 ]

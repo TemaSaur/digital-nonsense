@@ -45,7 +45,7 @@ h1.term::after {
 	display: grid;
 	width: 100%;
 	grid-template-columns: repeat(4, 1fr);
-	gap: 10px 50px;
+	gap: 10px 36px;
 }
 
 .reduce {
@@ -57,7 +57,7 @@ h1.term::after {
 }
 
 .small {
-	font-size: 1.2em;
+	font-size: 1.15em;
 }
 .big {
 	font-style: italic;
