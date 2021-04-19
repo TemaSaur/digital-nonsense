@@ -51,7 +51,9 @@ a {
 }
 .flex-gap {
 	display: flex;
-	gap: 10px;
+}
+.flex-gap > * + * {
+	margin-left: 1em;
 }
 .flex-column {
 	display: flex;
