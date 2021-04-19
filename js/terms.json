@@ -19,6 +19,17 @@
 		"instance": "[for example, we want to find the number 62 in range 1 to 100. First you guess 50, then 75, 67, 58, 62]"
 	},
 	{
+		"name": "compiler",
+		"categories": ["term", "languages"],
+		"definition": "compilation is something computer uses to translate high-level programming language commands into machine language, which computer can understand. Different programming language, of course, use different compilers (eg. g++ - C++ compiler, kotlinc - Kotlin compiler).\nUnlike <a href=\"?term=runtime\">interpreted</a> langauges, compilers of compiled languages do most of the work before the program runs, which allows for better speeds at the <a href=\"?term=runtime\">runtime</a>.\n<a href=\"https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Compiled_languages\">Some compiled languages</a>: C, C++, C#, Java, Go, Rust, Lisp, Swift, Kotlin"
+	},
+	{
+		"name": "dependencies",
+		"categories": ["term"],
+		"definition": "the libraries that are necessary to run and build the app. The app literally depends on the presence of a dependency.\nA special kind of dependencies are developer's dependencies. The app doesn't rely on these, but the programmer uses it to simplify the process of coding. An example of that is a nodemon, a library for Node.JS. It is used to restart the local Node server every time there is a change in code",
+		"vid": "EmN1Vx08tBw"
+	},
+	{
 		"name": "DevOps",
 		"categories": ["job", "practice", "blending"],
 		"definition": "Development + Operations, a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality",
@@ -37,9 +48,23 @@
 		"definition": "Document Object Model, a programming interface for HTML, XML and documents based on hierarchy of blocks (tags)"
 	},
 	{
+		"name": "DnD - drag'n'drop",
+		"categories": ["composition", "charade"],
+		"definition": "Drag and drop, a gesture / movement with your pointing device (eg. mouse) - \"grabbing\" an object and moving it to a different location.\nAlso a <a href=\"?term=UX+-+UI\">UX feature in software interfaces</a>",
+		"instance": "On my website i've implemented this DnD form for the files",
+		"picture": "gif"
+	},
+	{
 		"name": "ExpressJS",
 		"categories": ["tech", "affixation"],
 		"definition": "Express + JavaScript, a web application framework, that is used to manage the server-side code and serve pages for the app. It, of course, uses JavaScript as a programming language."
+	},
+	{
+		"name": "Frontend, Backend",
+		"categories": ["term"],
+		"definition": "Frontend (client-side) [0], Backend (server-side) [1]\n[0] The part of the project that communicates with the user (client) directly, the interface and interaction: the interface and interactivity\n[1] The part of project that works with user's data: stores it in a database, processes it. The essense of backend developer's job is working with databases and API's",
+		"instance": "The backend of my app uses C# and the frontend uses React",
+		"picture": "jpg"
 	},
 	{
 		"name": "Git",
@@ -54,6 +79,12 @@
 		"definition": "the main open-source platform built on top of <a href=\"?term=Git\">Git</a> version control software that host the repositories",
 		"instance": "Yea sure, I keep all my code on the <a href='https://github.com/'>Github</a>",
 		"vid": "RGOj5yH7evk"
+	},
+	{
+		"name": "HTML, CSS",
+		"categories": ["language"],
+		"definition": "HyperText Markup Language, Cascading Style Sheets, The languages used to make websites. HTML is used for the layout, the content, the blocks and base for the website. CSS is used to style the elements - to position, resize, color everything on the page.\nTogether with <a href=\"?term=js\">JavaScript</a> they make the foundation for every interactive design.",
+		"picture": "jpg"
 	},
 	{
 		"name": "js",
@@ -84,6 +115,12 @@
 		"vid": "s-Fs_Ucy_EU"
 	},
 	{
+		"name": "pentesting",
+		"categories": ["job", "process"],
+		"definition": "penetration testing, being a part of `ethical hacking` is a simulation of cyber attack on a server performed to evaluate the security of the system. It is used to find the bottle necks in the backend.",
+		"instance": "our servers have been pentested and the results are good!"
+	},
+	{
 		"name": "ReactJS",
 		"categories": ["tech", "affixation"],
 		"definition": "React + JavaScript, a web library used to create the frontend of web applications. It, of course, uses JavaScript as a programming language and for more functinality - .jsx files\nIt has the version <i>React Native</i> that is used to create mobile apps",
@@ -109,10 +146,28 @@
 		"instance": "Sorry for all the noise tonight, I was just rubber ducking my code."
 	},
 	{
-		"name": "sync/async",
+		"name": "runtime",
+		"categories": ["languages", "term"],
+		"definition": "The period of time when the program runs.\n The langauges that are compiled at the runtime are called `interpreted`. Unlike <a href=\"?term=compiler\">compilers</a>, the interpreters translate every command line by line (in the runtime). It lets the coder to dynamically set types for the variables, but also slows down the speed of program.\n<a href=\"https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Interpreted_languages\">Some interpreted languages include</a>: Python, Ruby, Lua, JavaScript, Java, Perl, PHP"
+	},
+	{
+		"name": "Sass - SCSS",
+		"categories": ["language", "contraction"],
+		"definition": "`Sassy CSS`, a pre-processor, that let's you write <a href=\"?term=html,+css\">CSS</a> easier. It uses enhanced CSS syntax with nesting, functions, mixins and has to be <a href=\"?term=compiler\">compiled (converted)</a> into normal CSS",
+		"instance": "So, I tried using Sass for my website, and now I don't want to come back to CSS",
+		"vid": "Zz6eOVaaelI"
+	},
+	{
+		"name": "sync - async",
 		"categories": ["keyword", "syntax", "contraction"],
 		"definition": "synchronous/asynchronous respectively, two main ways to implement functions. You can consider synchronous functions as `normal` ones, the code runs line-by-line\nThe asynchronous functions run in parallel with other functions so different parts of code can execute at the same time. The problem is that sometimes it causes some unexpected behavior",
 		"instance": "Look, I wrote this async function to get data from the database",
 		"vid": "Kpn2ajSa92c"
+	},
+	{
+		"name": "UX - UI",
+		"categories": ["design", "contraction"],
+		"definition": "User Experience[0] - User Interface[1],\n[0] the side of design that defines interactions between the user and the app. Good UX is ~being able to navigate through the app without the help of Google~.\n[1] the side of design that tells you how the interface looks. Most of the times when somebody says `that is a good design` they talk about the UI.\nUX: `let's put a sign-up button here`\nUI: `let's make this button big and red`",
+		"picture": "jpg"
 	}
 ]
