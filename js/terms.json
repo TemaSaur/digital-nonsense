@@ -81,6 +81,11 @@
 		"vid": "RGOj5yH7evk"
 	},
 	{
+		"name": "hack",
+		"categories": ["term", "conversion"],
+		"definition": "to hack - to exploit weaknesses in a computer system, or network\nto hack - to use a temporary solution, usually involving bad, unreadable code. Synonyms: a workaround, kludge"
+	},
+	{
 		"name": "HTML, CSS",
 		"categories": ["language"],
 		"definition": "HyperText Markup Language, Cascading Style Sheets, The languages used to make websites. HTML is used for the layout, the content, the blocks and base for the website. CSS is used to style the elements - to position, resize, color everything on the page.\nTogether with <a href=\"?term=js\">JavaScript</a> they make the foundation for every interactive design.",
